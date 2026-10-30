@@ -1,0 +1,8 @@
+.gradle/
+build/
+.idea/
+*.iml
+local.properties
+.dart_tool/
+.flutter-plugins*
+.DS_Store

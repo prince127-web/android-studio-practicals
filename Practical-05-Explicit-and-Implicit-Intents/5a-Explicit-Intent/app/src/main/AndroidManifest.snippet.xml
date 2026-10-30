@@ -1,0 +1,4 @@
+<!-- Add this inside the existing AndroidManifest.xml -->
+<activity
+    android:name=".SecondActivity"
+    android:exported="false" />

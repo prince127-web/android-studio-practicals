@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ android:padding="20dp">
+ <TextView
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Student Data - External Storage"
+ android:textSize="24sp"
+ android:textStyle="bold"
+ android:gravity="center"
+ android:layout_marginBottom="25dp"/>
+ <EditText
+ android:id="@+id/edtName"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Enter Student Name"
+ android:inputType="textPersonName"
+ android:layout_marginBottom="15dp"/>
+ <EditText
+android:id="@+id/edtRollNo"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Enter Roll Number"
+ android:inputType="number"
+ android:layout_marginBottom="15dp"/>
+ <Button
+ android:id="@+id/btnSave"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="SAVE DATA"/>
+ <Button
+ android:id="@+id/btnRead"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="READ DATA"
+ android:layout_marginTop="10dp"/>
+ <TextView
+ android:id="@+id/txtResult"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="25dp"
+ android:text="Saved data will appear here"
+ android:textSize="18sp"/>
+</LinearLayout>
